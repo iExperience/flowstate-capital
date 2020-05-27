@@ -43,5 +43,8 @@ small, .small { font-weight: inherit; }
 .navbar {
   .navbar-brand--img {
     width: 100px;
+    @include m-lg {
+      width: 150px;
+    }
   }
 }
