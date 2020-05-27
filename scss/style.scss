@@ -1,0 +1,47 @@
+@import "_variables";
+@import "_bootstrap_config";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap');
+
+html, body {
+  height: 100%;
+  font-size: 14px;      // REM base for xs/sm screens.
+  @include m-md {
+    font-size: 16px;    // REM base for md/lg screens.
+  }
+  @include m-xl {
+    font-size: 18px;    // REM base for xl screens.
+  }
+}
+
+em, .em { @extend .font-italic; }
+.light { @extend .font-weight-light; }
+b, .b { @extend .font-weight-normal; }
+strong, .strong { @extend .font-weight-bold; }
+small, .small { font-weight: inherit; }
+.font-normal { font-family: $font-family-sans-serif; }
+.font-serif { font-family: $font-family-serif; }
+.text-dark-gray { color: darken($fs-dark-gray, 20%); }
+.text-salmon { color: $fs-salmon; }
+.text-blue { color: $fs-blue; }
+.text-light-blue { color: $fs-light-blue; }
+.bg-white { background-color: white !important; }
+.bg-salmon { background-color: $fs-salmon; }
+.bg-light-blue { background-color: $fs-light-blue !important; }
+.bg-blue { background-color: $fs-blue !important; }
+.bg-dark-gray { background-color: $fs-dark-gray !important; }
+.bg-black { background-color: black !important; }
+
+.header-cols {
+  @extend .col-lg-10;
+  @extend .offset-lg-1;
+  @extend .col-xl-8;
+  @extend .offset-xl-2;
+}
+
+.navbar {
+  .navbar-brand--img {
+    width: 100px;
+  }
+}

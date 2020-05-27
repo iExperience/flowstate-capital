@@ -1,0 +1,19 @@
+$fs-salmon: #D6AD9C;
+$fs-blue: #28536B;
+$fs-light-blue: #7EA8BE;
+$fs-tan: #F6F0ED;
+$fs-dark-gray: #1B1B1B;
+
+@font-face {
+  font-family: "AbhayaLibre";
+  src: url("AbhayaLibre-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AbhayaLibre";
+  src: url("AbhayaLibre-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}

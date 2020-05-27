@@ -1,0 +1,15 @@
+{
+  "name": "nxt",
+  "version": "1.0.0",
+  "description": "Flowstate Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "open index.html && sass --watch scss/style.scss:css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafi Khan",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
